@@ -4,6 +4,12 @@
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+    int i = 50;
+    while (i - 6 > 0 )
+    {
+        i = i - 6;
+        printf("%d\n", i);
+    }
+    
     return 0;
 }
